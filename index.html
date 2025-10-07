@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foundation Calendar - Goldsmiths Psychology</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      margin: 0;
+      padding: 2em;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container {
+      max-width: 800px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+      padding: 3em;
+      text-align: center;
+    }
+    h1 {
+      color: #375a7f;
+      margin-bottom: 0.5em;
+      font-size: 2.5em;
+    }
+    .subtitle {
+      color: #666;
+      margin-bottom: 2em;
+      font-size: 1.1em;
+    }
+    .card-container {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5em;
+      margin-top: 2em;
+    }
+    .card {
+      background: #f8f9fa;
+      border: 2px solid #0066cc;
+      border-radius: 8px;
+      padding: 1.5em;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.3s ease;
+      display: block;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 20px rgba(0, 102, 204, 0.3);
+      border-color: #004999;
+    }
+    .card h2 {
+      color: #0066cc;
+      margin: 0 0 0.5em 0;
+      font-size: 1.5em;
+    }
+    .card p {
+      color: #666;
+      margin: 0;
+      line-height: 1.6;
+    }
+    .footer {
+      margin-top: 3em;
+      padding-top: 2em;
+      border-top: 2px solid #eee;
+      color: #666;
+      font-size: 0.9em;
+    }
+    @media (max-width: 600px) {
+      body {
+        padding: 1em;
+      }
+      .container {
+        padding: 2em 1.5em;
+      }
+      h1 {
+        font-size: 2em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📚 Foundation Calendar</h1>
+    <p class="subtitle">BSc Psychology Foundation Year – Autumn 2025<br>Goldsmiths, University of London</p>
+    
+    <div class="card-container">
+      <a href="calendar.html" class="card">
+        <h2>📅 Weekly Calendar</h2>
+        <p>View the weekly teaching schedule with lectures, tutorials, and seminars organized by day and time.</p>
+      </a>
+      
+      <a href="timetable.html" class="card">
+        <h2>🗓️ Full Timetable</h2>
+        <p>Complete timetable view showing all teaching weeks in a structured table format with all days of the week.</p>
+      </a>
+      
+      <a href="weekcrosswalk.html" class="card">
+        <h2>🔄 Week Crosswalk</h2>
+        <p>Reference guide mapping college weeks to teaching weeks with corresponding dates for Term 1.</p>
+      </a>
+    </div>
+    
+    <div class="footer">
+      <small>A LittleMonkeyLab Caper | Made with ❤️ for Foundations'26</small>
+    </div>
+  </div>
+</body>
+</html>
